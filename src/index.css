@@ -1,68 +1,131 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+/* ==== Estilos Globais ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background: linear-gradient(180deg, #4A0072, #8A2BE2);
+  color: white;
+  text-align: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
+/* ==== Estilização dos botões ==== */
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ff6600;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: 0.3s;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+button:hover {
+  background-color: #e65c00;
+}
+
+/* ==== Barra de navegação inferior ==== */
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* ==== Cartões de Produtos ==== */
+.produto-card {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.produto-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.produto-card button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* ==== Chat WhatsApp ==== */
+.chat-container {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.chat-button {
+  background-color: #25D366;
+  color: white;
+  font-weight: bold;
+}
+
+.chat-button:hover {
+  background-color: #1ebe57;
+}
+
+/* ==== Perfil ==== */
+.perfil-card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.perfil-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* ==== Fila Digital ==== */
+.fila-digital {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ==== QR Code ==== */
+.qr-code {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.qr-code img {
+  width: 100%;
+  border-radius: 10px;
 }

@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const FilaDigital = () => {
   return (
     <div>
-      <h1>Vortex</h1>
-      <p>Bem-vindo à nossa loja de bebidas!</p>
+      <h1>📊 Fila Digital</h1>
+      <p>Você está em **8º lugar**</p>
+      <p>Tempo estimado: **6 minutos**</p>
       <nav className="navbar">
+        <Link to="/">🏠 Início</Link>
         <Link to="/comanda">🛒 Comanda</Link>
-        <Link to="/fila-digital">📊 Fila Digital</Link>
         <Link to="/chat">💬 Chat</Link>
         <Link to="/perfil">👤 Perfil</Link>
       </nav>
@@ -15,4 +16,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default FilaDigital;
