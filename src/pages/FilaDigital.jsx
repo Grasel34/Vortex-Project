@@ -8,7 +8,7 @@ const FilaDigital = () => {
       <p>Tempo estimado: **6 minutos**</p>
       <nav className="navbar">
         <Link to="/">🏠 Início</Link>
-        <Link to="/comanda">🛒 Comanda</Link>
+        <Link to="/fila-digital">📊 Fila Digital</Link>
         <Link to="/chat">💬 Chat</Link>
         <Link to="/perfil">👤 Perfil</Link>
       </nav>

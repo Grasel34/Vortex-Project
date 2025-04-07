@@ -8,8 +8,8 @@ const Chat = () => {
       <button className="chat-button">Ir para o WhatsApp</button>
       <nav className="navbar">
         <Link to="/">🏠 Início</Link>
-        <Link to="/comanda">🛒 Comanda</Link>
-        <Link to="/fila-digital">📊 Fila</Link>
+        <Link to="/fila-digital">📊 Fila Digital</Link>
+        <Link to="/chat">💬 Chat</Link>
         <Link to="/perfil">👤 Perfil</Link>
       </nav>
     </div>

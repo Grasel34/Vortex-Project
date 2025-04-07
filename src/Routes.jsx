@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Produtos from "./pages/Produtos";
 import Comanda from "./pages/Comanda";
 import FilaDigital from "./pages/FilaDigital";
 import Chat from "./pages/Chat";
@@ -12,7 +11,6 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/produtos" element={<Produtos />} />
         <Route path="/comanda" element={<Comanda />} />
         <Route path="/fila-digital" element={<FilaDigital />} />
         <Route path="/chat" element={<Chat />} />
