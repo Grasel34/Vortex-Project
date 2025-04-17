@@ -5,6 +5,7 @@ import FilaDigital from "./pages/FilaDigital";
 import Chat from "./pages/Chat";
 import Perfil from "./pages/Perfil";
 import Escanear from "./pages/Escanear";
+import './index.css';
 
 export default function AppRoutes() {
   return (
